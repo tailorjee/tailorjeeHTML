@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailorjee - Empowering Tailors & Boutiques</title>
+    <link rel="icon" type="image/svg+xml" href="/images/image.png" />
+    <link href="/output.css" rel="stylesheet" />
+    <script src="/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-white text-gray-900 scroll-smooth">
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/67f3e53f8b9351190f6d3241/1io8bf0ms";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <nav class="bg-white sticky top-0 left-0 z-50 shadow-md">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <!-- Left Section (Logo) -->
+          <div class="flex items-center">
+            <img
+              class="h-auto w-14"
+              src="./images/transparent_logo.png"
+              alt="Tailor Jee"
+            />
+          </div>
+
+          <!-- Center Section (Desktop Menu) -->
+          <div
+            id="menu"
+            class="hidden sm:flex space-x-6 text-black font-medium"
+          >
+            <a href="#home" class="hover:text-brandBlue transition duration-200"
+              >Overview</a
+            >
+            <a
+              href="#explore"
+              class="hover:text-brandBlue transition duration-200"
+              >Explore Features</a
+            >
+            <a
+              href="#whoarewe"
+              class="hover:text-brandBlue transition duration-200"
+              >Who Are We</a
+            >
+            <a
+              href="#whytailorjee"
+              class="hover:text-brandBlue transition duration-200"
+              >Why Tailor Jee</a
+            >
+          </div>
+
+          <!-- Right Section (Buttons) -->
+          <div class="hidden sm:flex gap-4">
+            <button
+              class="border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+              onclick="window.open('https://app.tailorjee.com/', '_blank')"
+              target="_blank"
+            >
+              Login
+            </button>
+            <button
+              class="border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+              onclick="window.open('https://app.tailorjee.com/', '_blank')"
+            >
+              Free Sign Up
+            </button>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="sm:hidden ml-7 flex items-center gap-4">
+            <button
+              target="_blank"
+              class="flex-1 border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+              onclick="window.open('https://app.tailorjee.com/', '_blank')"
+            >
+              Login
+            </button>
+          
+            <button
+              id="menu-toggle"
+              class="text-3xl hover:text-brandBlue focus:outline-none"
+            >
+              ☰
+            </button>
+          </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden sm:hidden px-4 py-3">
+        <a href="#home" class="block py-2 text-black hover:text-brandBlue"
+          >Overview</a
+        >
+        <a href="#explore" class="block py-2 text-black hover:text-brandBlue"
+          >Explore Features</a
+        >
+        <a href="#whoarewe" class="block py-2 text-black hover:text-brandBlue"
+          >Who Are We</a
+        >
+        <a
+          href="#whytailorjee"
+          class="block py-2 text-black hover:text-brandBlue"
+          >Why Tailor Jee</a
+        >
+      
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="scroll-m-96 mt-10 max-w-7xl  mx-auto grid md:grid-cols-2 gap-12 items-center p-10 bg-brandBlue text-white rounded-xl shadow-2xl">
+      <!-- Left Content -->
+      <div class="space-y-6 text-center md:text-left">
+        <h1 class="text-4xl font-bold leading-tight">Manage Your Tailoring Shop the Smart Way!</h1>
+        <h6 class="text-lg opacity-90">
+          Say goodbye to notebooks and confusion. From customer orders to
+          delivery updates handle everything in one smooth, simple platform made
+          just for tailors like you.
+          <br /><br />
+          Available on both <strong>Mobile App</strong> and
+          <strong>Web</strong> so you can work from anywhere, anytime.
+        </h6>
+        <button
+          class=" bg-yellow-300 text-teal-800 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-400 hover:text-black transition focus:ring-4 focus:ring-yellow-500 focus:outline-none;"
+          onclick="window.open('https://app.tailorjee.com/', '_blank')"
+        >
+          Try It Free →
+        </button>
+      </div>
+      <!-- Right Image -->
+      <div class="relative flex justify-center">
+        <img
+          src="/images/Gemini_Generated_Image_pfih2upfih2upfih.jpeg"
+          alt="Tailor Management"
+          class="w-96 max-w-full rounded-xl shadow-lg transform hover:scale-105 transition duration-500"
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section
+      id="explore"
+      class="scroll-m-80 md:scroll-m-24 md:mt-20 max-w-7xl mx-auto text-center px-6 py-16"
+    >
+      <!-- Section Header -->
+      <div class="mb-12">
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800">
+          Tools Tailors Can Rely On All in One Place
+        </h1>
+        <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+          From taking measurements to tracking payments manage your tailoring
+          business with ease using features built especially for shopkeepers.
+        </p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Orders Dashboard -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div
+             
+            >
+              <i class="fas fa-chart-bar text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">
+              Orders Dashboard
+            </h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Quickly view new, pending, and completed orders all in one clean
+            dashboard.
+          </p>
+        </div>
+
+        <!-- App & Web Access -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div>
+              <i class="fas fa-laptop text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">
+              Works on App & Web
+            </h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Manage your shop from your phone or computer anywhere, anytime.
+          </p>
+        </div>
+
+        <!-- Real-time Notifications -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div
+             
+            >
+              <i class="fas fa-bell text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">
+              Live Order Updates
+            </h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Get notified the moment an order is created, updated, or completed.
+          </p>
+        </div>
+
+        <!-- Digital Measurements -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div
+            
+            >
+              <i class="fas fa-ruler text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">
+              Digital Measurement Book
+            </h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Record, update, and access all customer sizes without any paper.
+          </p>
+        </div>
+
+        <!-- Customer Feedback -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div
+            
+            >
+              <i class="fas fa-comment-alt text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">
+              Feedback Tracking
+            </h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Know what customers like (or don’t) and grow your repeat business.
+          </p>
+        </div>
+
+        <!-- Design Image Upload -->
+        <div class="bg-gray-100 p-6 rounded-lg text-left">
+          <div class="flex items-center gap-4">
+            <div
+            
+            >
+              <i class="fas fa-camera text-3xl text-brandBlue"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-800">Design Uploads</h3>
+          </div>
+          <p class="text-gray-600 mt-3">
+            Upload sample images shared by customers for easy reference during
+            stitching.
+          </p>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="mt-12">
+        <button
+          class="border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+          onclick="window.open('https://app.tailorjee.com/', '_blank')"
+        >
+          Start Free Trial →
+        </button>
+      </div>
+    </section>
+
+    <!-- Who Are We Section -->
+    <section
+      id="whoarewe"
+      class="scroll-m-80 md:scroll-m-24 md:mt-20 px-6 py-16 md:py-9 text-center bg-white"
+    >
+      <h1 class="text-4xl font-bold text-brandBlue">Who We Are</h1>
+
+      <div class="max-w-3xl mx-auto mt-10 space-y-6 text-gray-700">
+        <p class="text-lg leading-relaxed">
+          <span class="font-semibold text-brandBlue">Tailorjee</span> is built
+          for the hard working shopkeepers who stitch more than clothes — you
+          stitch trust, tradition, and satisfaction. We know how hectic your day
+          can get handling measurements, orders, payments, and delivery that’s
+          exactly why we’re here.
+        </p>
+        <p class="text-base italic leading-relaxed text-gray-600">
+          With <span class="font-semibold text-brandBlue">Tailorjee</span>, you
+          don’t have to juggle it all in your head. We bring everything into one
+          simple place, so you can stay focused, stress less, and grow faster.
+          <span class="font-semibold text-brandBlue">
+            This isn’t just software it's your digital partner.</span
+          >
+        </p>
+      </div>
+
+      <div class="mt-9 grid gap-8 md:grid-cols-2">
+        <!-- Vision Card -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <div class="flex items-center gap-3 justify-center mb-4">
+            <i class="fas fa-eye text-brandBlue text-3xl"></i>
+            <h2 class="text-xl font-semibold text-brandBlue">Our Vision</h2>
+          </div>
+          <p class="text-base leading-relaxed text-gray-600">
+            To bring every tailoring shop big or small into the digital world
+            with tools that actually make your life easier.
+          </p>
+        </div>
+
+        <!-- Values Card -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <div class="flex items-center gap-3 justify-center mb-4">
+            <i class="fas fa-handshake text-brandBlue text-3xl"></i>
+            <h2 class="text-xl font-semibold text-brandBlue">Our Values</h2>
+          </div>
+          <p class="text-base leading-relaxed text-gray-600">
+            We believe in simplicity, honesty, and keeping things tailor made
+            just like your work. Your success is our mission.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Industry Challenges Section -->
+    <section
+      id="industrychallenges"
+      class="max-w-7xl mx-auto px-6 py-11 text-center bg-white"
+    >
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold text-brandBlue">Industry Challenges</h1>
+        <p class="text-lg text-gray-600 mt-8 italic">
+          "Running a tailor shop or boutique isn’t easy we get it."
+        </p>
+        <p class="text-base text-gray-600 mt-4 leading-relaxed">
+          Every day brings a new challenge tracking orders, following up on
+          payments, dealing with delays, and keeping customers happy. It’s a lot
+          to manage, especially when you're doing everything on paper or memory.
+          <span class="font-semibold text-brandBlue"
+            >That’s exactly why Tailorjee exists to help simplify your work and
+            give you back control.</span
+          >
+        </p>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Order Management Card -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <div class="flex items-center gap-3 justify-center mb-4">
+            <i class="fas fa-tasks text-brandBlue text-3xl"></i>
+            <h2 class="text-xl font-semibold text-brandBlue">
+              Order Management
+            </h2>
+          </div>
+          <p class="text-base text-gray-600 leading-relaxed">
+            From fitting to delivery never lose track of your orders again. Stay
+            organized and always on time.
+          </p>
+        </div>
+
+        <!-- Customer Satisfaction Card -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <div class="flex items-center gap-3 justify-center mb-4">
+            <i class="fas fa-smile text-brandBlue text-3xl"></i>
+            <h2 class="text-xl font-semibold text-brandBlue">
+              Customer Satisfaction
+            </h2>
+          </div>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Delays? Miscommunication? Not anymore. Keep your customers in the
+            loop and coming back for more.
+          </p>
+        </div>
+
+        <!-- Financial Tracking Card -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <div class="flex items-center gap-3 justify-center mb-4">
+            <i class="fas fa-chart-line text-brandBlue text-3xl"></i>
+            <h2 class="text-xl font-semibold text-brandBlue">
+              Financial Tracking
+            </h2>
+          </div>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Know what’s coming in, what’s going out, and how your business is
+            really doing all in one place.
+          </p>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+
+      <div class="mt-8">
+        <button
+          class="border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+          onclick="window.open('https://app.tailorjee.com/', '_blank')"
+        >
+          Start Free Trial →
+        </button>
+      </div>
+    </section>
+    <!-- Why TailorJee Section -->
+    <section
+      id="whytailorjee"
+      class="scroll-m-80 md:scroll-m-24 md:mt-20 max-w-7xl mx-auto px-6 py-16 md:py-9 text-center bg-white"
+    >
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold text-brandBlue">Why Tailorjee?</h1>
+        <p class="mt-5 text-lg italic text-gray-600">
+          "Your All-in-One Digital Assistant for Tailors & Boutiques"
+        </p>
+        <p class="mt-3 text-base text-gray-700 leading-relaxed">
+          Tailorjee is designed with
+          <span class="font-semibold text-brandBlue">you</span> in mind the busy
+          tailor managing customers, fittings, orders, and payments. Let us
+          handle the chaos behind the scenes so you can focus on what truly
+          matters:
+          <span class="font-semibold text-brandBlue"
+            >creating beautiful clothes</span
+          >.
+        </p>
+        <p class="mt-2 text-base text-gray-700 leading-relaxed font-medium">
+          Available on both
+          <span class="text-brandBlue font-semibold">mobile</span> and
+          <span class="text-brandBlue font-semibold">web</span>, so you’re
+          always in control wherever you are!
+        </p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <!-- Features List -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <h2 class="text-xl font-semibold text-brandBlue mb-5">
+            What You’ll Get
+          </h2>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-center gap-3">
+              <i class="fas fa-clipboard-list text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Live Order Tracking:</span> Instantly
+                check order status and keep your customers informed.
+              </span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-clock text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Delay Alerts:</span> Get notified of
+                bottlenecks so you can fix them before they grow.
+              </span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-wallet text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Smart Finance Tracking:</span> Easily
+                manage payments, advances, and profits without the headache.
+              </span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-bullhorn text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Customer Notifications:</span> Let
+                customers know when their orders are ready automatically.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- How It Works -->
+        <div
+          class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition"
+        >
+          <h2 class="text-xl font-semibold text-brandBlue mb-5">
+            How It Works
+          </h2>
+          <p class="italic text-gray-600 mb-4">
+            Getting started is super easy:
+          </p>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-center gap-3">
+              <i class="fas fa-user-check text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Sign Up:</span> Create your free
+                account no tech skills needed!
+              </span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-tools text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Set Up Shop:</span> Add your shop
+                details, customers, and orders in minutes.
+              </span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-tachometer-alt text-brandBlue text-xl"></i>
+              <span>
+                <span class="font-medium">Start Managing:</span> Run your
+                business like a pro from your phone or desktop.
+              </span>
+            </li>
+            <li class="justify-center align-middle flex">
+              <button
+                class="border border-brandBlue text-brandBlue px-4 py-2 rounded-md hover:bg-brandBlue hover:text-white transition"
+                onclick="window.open('https://app.tailorjee.com/', '_blank')"
+              >
+                Start Free Trial →
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-black text-center p-6 shadow-lg">
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center mb-10"
+      >
+        <!-- Contact Us Section -->
+        <div class="flex flex-col items-center">
+          <i class="fas fa-envelope text-green-600 text-3xl mb-2"></i>
+          <h2 class="text-lg font-semibold">Contact Us</h2>
+          <p class="text-gray-600 text-sm">Email: support@tailorjee.com</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="flex flex-col items-center">
+          <h2 class="text-lg font-semibold mb-5">Follow Us</h2>
+          <div class="flex space-x-4">
+            <a
+              href="https://www.facebook.com/share/1ErmseQLaw/"
+              target="_blank"
+              class="text-[#1877F2] hover:scale-110 transition"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook-f text-2xl"></i>
+            </a>
+            <a
+              href="https://x.com/tailorjee_?t=volizX2uZIXJK2J9WjTL0Q&s=09"
+              class="text-[#000000] hover:scale-110 transition"
+              aria-label="X (Twitter)"
+            >
+              <i class="fab fa-x-twitter text-2xl"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/tailorjee_/"
+              class="text-[#E4405F] hover:scale-110 transition"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram text-2xl"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="flex flex-col items-center">
+          <p class="text-gray-600">
+            &copy; 2025 Tailorjee | All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
