@@ -713,12 +713,36 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.scroll-m-24{
+  scroll-margin: 6rem;
+}
+
 .scroll-m-80{
   scroll-margin: 20rem;
 }
 
 .scroll-m-96{
   scroll-margin: 24rem;
+}
+
+.scroll-m-72{
+  scroll-margin: 18rem;
+}
+
+.scroll-m-40{
+  scroll-margin: 10rem;
+}
+
+.scroll-m-56{
+  scroll-margin: 14rem;
+}
+
+.scroll-m-10{
+  scroll-margin: 2.5rem;
+}
+
+.scroll-m-52{
+  scroll-margin: 13rem;
 }
 
 .grid-cols-1{
